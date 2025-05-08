@@ -65,11 +65,8 @@ schedule.every().day.at("06:00").do(fetch_news_data)
 while True:
     schedule.run_pending()
     time.sleep(60)
-Có thể chạy thủ công bằng terminal, hoặc kết hợp với cron job (trên Linux) hoặc Task Scheduler (Windows)
-
   Sử dụng với Visual Studio Code
 Mở VS Code
-
 Tạo file main.py
 
 Dán toàn bộ mã Python vào file
