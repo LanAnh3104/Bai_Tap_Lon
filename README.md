@@ -23,6 +23,7 @@ beautifulsoup4
 pandas
 schedule
 openpyxl
+
 Cài đặt và sử dụng
 Bước 1: Clone project từ GitHub
 git clone https://github.com/your-username/kenh14-news-scraper.git
@@ -31,11 +32,13 @@ Bước 2: Cài đặt thư viện
 pip install -r requirements.txt
 Bước 3: Chạy script chính
 python main.py
+
 Dữ liệu đầu ra
 File Excel: kenh14_news.xlsx
 Gồm các cột:
 Chuyên mục |	Tiêu đề	|  Tóm tắt	|  Nội dung |  HTML	|  Hình ảnh
 Thiết lập chạy tự động lúc 06:00 sáng
+
 Sử dụng thư viện schedule như sau:
 import schedule
 import time
@@ -43,11 +46,14 @@ schedule.every().day.at("06:00").do(fetch_news_data)
 while True:
     schedule.run_pending()
     time.sleep(60)
+    
   Sử dụng với Visual Studio Code
 Mở VS Code
 Tạo file Bai_tap_lon.py
 Dán toàn bộ mã Python vào file
 Mở terminal (Ctrl + `), chạy lệnh:
+
 pip install -r requirements.txt
+
 Chạy script:
 python main.py
