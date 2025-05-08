@@ -1,3 +1,4 @@
+# Bai Tap Lon
 # Web Scraping Tin Tức Chuyên Mục "Star" – Kenh14.vn
 
 Script Python tự động thu thập bài viết từ chuyên mục **Star** trên trang [Kenh14.vn](https://kenh14.vn/star.chn), lưu dữ liệu vào file Excel và hỗ trợ chạy tự động lúc **06:00 sáng mỗi ngày**.
