@@ -2,10 +2,6 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import time
-import scheduleimport requests
-import pandas as pd
-from bs4 import BeautifulSoup
-import time
 import schedule
 from selenium import webdriver
 from selenium.webdriver.common.by import By
